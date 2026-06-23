@@ -290,55 +290,6 @@ bridge_config.json
 
 ---
 
-## GitHub logo setup
-
-This README expects the logo at:
-
-```text
-assets/SNRB.png
-```
-
-Use this exact repository structure:
-
-```text
-README.md
-assets/
-└─ SNRB.png
-```
-
-Add and push the files:
-
-```bat
-git add README.md assets/SNRB.png
-git commit -m "Add Silent Night Revit Bridge README and logo"
-git push
-```
-
-GitHub paths are case sensitive. The README reference `./assets/SNRB.png` must match the actual folder and file name exactly.
-
----
-
-## Repository social preview
-
-GitHub does not provide a dedicated repository logo field.
-
-Use the logo in two places:
-
-1. At the top of `README.md`
-2. Under GitHub repository settings:
-
-```text
-Settings > General > Social preview > Edit
-```
-
-Recommended image:
-
-```text
-assets/SNRB.png
-```
-
----
-
 ## Status
 
 Experimental workflow automation.
