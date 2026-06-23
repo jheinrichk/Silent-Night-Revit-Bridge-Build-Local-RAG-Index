@@ -1,0 +1,166 @@
+{
+  "timing": {
+    "chatgpt_output_wait_seconds": 111,
+    "chatgpt_copy_retry_wait_seconds": 60,
+    "chatgpt_copy_retry_attempts": 2,
+    "chatgpt_page_down_count": 2,
+    "chatgpt_page_down_pre_copy_wait_seconds": 3,
+    "chatgpt_page_down_post_copy_wait_seconds": 3,
+    "rps_output_wait_seconds": 11,
+    "startup_delay_seconds": 3,
+    "pause_between_actions": 0.5,
+    "pause_after_copy_seconds": 3,
+    "pause_after_paste_seconds": 3,
+    "revit_warning_ok_click_wait_seconds": 0.0,
+    "revit_dialog_click_wait_seconds": 0.0,
+    "revit_dialog_sequence_passes": 0,
+    "revit_dialog_before_output_wait_seconds": 0,
+    "chatgpt_reprint_wait_seconds": 60,
+    "browser_refresh_after_click_wait_seconds": 3,
+    "default_short_wait_seconds": 3,
+    "chatgpt_input_paste_wait_seconds": 7,
+    "chatgpt_wait_min_seconds": 45,
+    "chatgpt_wait_max_seconds": 180,
+    "rps_wait_min_seconds": 20,
+    "rps_wait_max_seconds": 120,
+    "retry_wait_min_seconds": 45,
+    "retry_wait_max_seconds": 180
+  },
+  "qc": {
+    "export_folder": "C:\\RevitBridge\\QC_Exports",
+    "upload_staging_folder": "C:\\RevitBridge\\QC_Upload",
+    "upload_staging_basename": "qc_upload",
+    "valid_export_extensions": [
+      ".png",
+      ".pdf",
+      ".jpg",
+      ".jpeg"
+    ],
+    "watch_interval_seconds": 2,
+    "file_stability_checks": 3,
+    "file_stability_interval_seconds": 1.0,
+    "upload_wait_seconds": 3,
+    "upload_step_wait_seconds": 3,
+    "chatgpt_response_wait_seconds": 60,
+    "activate_chatgpt_input_before_upload": true,
+    "file_dialog_path_entry_attempts": 2,
+    "file_picker_open_after_paste": true,
+    "upload_debug_log": "C:\\RevitBridge\\QC_Upload\\upload_debug_log.txt",
+    "newest_file_fallback_max_age_seconds": 900,
+    "file_picker_open_wait_seconds": 7,
+    "batch_upload_one_dialog": true
+  },
+  "bridge": {
+    "max_cycles": 2222,
+    "stop_on_syntax_error": true,
+    "stop_on_fix_errors": true,
+    "max_repeated_state_count": 8,
+    "max_invalid_code_attempts": 2,
+    "max_reprint_attempts": 1,
+    "stop_on_completion_states": false,
+    "stop_on_repeated_state": false,
+    "revit_api_modal_guard_enabled": true
+  },
+  "coordinates": {
+    "chatgpt_input": [
+      472,
+      857
+    ],
+    "chatgpt_submit": [
+      953,
+      911
+    ],
+    "chatgpt_response_click": [
+      810,
+      336
+    ],
+    "rps_input": [
+      1472,
+      922
+    ],
+    "rps_run_button": [
+      2032,
+      616
+    ],
+    "rps_output_click": [
+      1507,
+      1395
+    ],
+    "chatgpt_attach": [
+      99,
+      908
+    ],
+    "chatgpt_add_files": [
+      317,
+      454
+    ],
+    "file_picker_filename": [
+      510,
+      1246
+    ],
+    "file_picker_open": [
+      1819,
+      1302
+    ],
+    "browser_refresh": [
+      120,
+      133
+    ],
+    "revit_warning_ok": [
+      1995,
+      1185
+    ],
+    "revit_dialog_ok": [
+      1918,
+      1339
+    ],
+    "revit_dialog_unjoin": [
+      1717,
+      1418
+    ],
+    "revit_dialog_cancel": [
+      1820,
+      1366
+    ],
+    "chatgpt_code_copy_button": [
+      810,
+      336
+    ]
+  },
+  "hotkeys": {
+    "copy": [
+      "ctrl",
+      "c"
+    ],
+    "paste": [
+      "ctrl",
+      "v"
+    ],
+    "select_all": [
+      "ctrl",
+      "a"
+    ],
+    "chatgpt_submit": [
+      "enter"
+    ],
+    "rps_execute": [
+      "f5"
+    ],
+    "page_down": [
+      "pagedown"
+    ]
+  },
+  "rag": {
+    "enabled": true,
+    "rag_folder": "C:\\RevitBridge\\RAG",
+    "retrieval_script": "C:\\RevitBridge\\RAG\\rag_retrieve.py",
+    "cycle_log_file": "C:\\RevitBridge\\RAG\\cycles\\bridge_cycles.jsonl",
+    "latest_context_file": "C:\\RevitBridge\\RAG\\latest_retrieved_context.txt",
+    "max_context_chars": 6000,
+    "top_k": 8,
+    "include_on_initial_prompt": true,
+    "include_on_followup_prompt": true,
+    "log_cycles": true,
+    "retrieval_timeout_seconds": 8
+  }
+}

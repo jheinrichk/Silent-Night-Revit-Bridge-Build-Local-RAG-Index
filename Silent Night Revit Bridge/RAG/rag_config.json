@@ -1,0 +1,10 @@
+{
+  "rag_root": "C:\\RevitBridge\\RAG",
+  "corpus_dir": "C:\\RevitBridge\\RAG\\corpus",
+  "cycles_dir": "C:\\RevitBridge\\RAG\\cycles",
+  "vector_store_dir": "C:\\RevitBridge\\RAG\\vector_store",
+  "retrieval_script": "C:\\RevitBridge\\RAG\\rag_retrieve.py",
+  "top_k": 8,
+  "max_context_chars": 6000,
+  "index_method": "stdlib lexical tf-idf scoring; replaceable with embeddings later"
+}
