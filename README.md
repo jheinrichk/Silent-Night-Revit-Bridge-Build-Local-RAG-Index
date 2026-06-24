@@ -5,14 +5,14 @@
 <h1 align="center">Silent Night Revit Bridge</h1>
 
 <p align="center">
-  A local LLM to Revit bridge using a continuous <strong>observe-execute-verify</strong> state machine.
+  A local LLM-to-Revit bridge using a continuous <strong>observe-execute-verify</strong> state machine.
 </p>
 
 ---
 
 ## Repository description
 
-Silent Night Revit Bridge is a local LLM to Revit workflow that creates an autonomous Vision-Language-Action agentic loop between ChatGPT, the Revit Python Interactive Shell and Revit’s visual model state.
+Silent Night Revit Bridge is a local LLM-to-Revit workflow that creates an autonomous Vision-Language-Action agentic loop between ChatGPT, the Revit Python Interactive Shell and Revit’s visual model state.
 
 The system sends IronPython scripts from the LLM into Autodesk Revit, then returns structured console output, execution errors, state reports and exported PNG views or sheets back through the browser for visual verification. This allows the LLM to operate Revit as a continuous observe-execute-verify state machine. It queries model data instead of guessing, modifies the model through controlled transactions, tags and tracks its own generated elements, exports focused QAQC images and uses both textual and visual feedback to self-correct subsequent actions.
 
