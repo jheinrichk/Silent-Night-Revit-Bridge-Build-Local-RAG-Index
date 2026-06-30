@@ -18,6 +18,12 @@ The system sends IronPython scripts from the LLM into Autodesk Revit, then retur
 
 In effect, Revit becomes a live model environment controlled by an autonomous agent that can iteratively inspect, draft, revise, clean up and validate work without manual scripting between cycles.
 
+<p align="center">
+  <a href="https://youtu.be/hO2UOmuXCFo">
+    <img src="https://img.youtube.com/vi/hO2UOmuXCFo/maxresdefault.jpg" alt="Watch Silent Night Revit Bridge" width="600">
+  </a>
+</p>
+
 ---
 
 ## Recent improvements
