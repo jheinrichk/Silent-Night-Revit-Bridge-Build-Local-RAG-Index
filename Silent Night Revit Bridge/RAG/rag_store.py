@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
+r"""
 Local Revit Bridge RAG store.
 No external dependencies. Uses lexical scoring over chunked text and bridge cycle records.
 Place this folder at C:\RevitBridge\RAG, then run rag_ingest.py whenever corpus files change.
