@@ -36,7 +36,7 @@ It now:
 
 - Waits for the Open dialog to actually appear after selecting “Add files”
 - Uses full quoted paths plus `Alt+N` and `Enter` to avoid stale filename bugs
-- Explicitly waits for the dialog to close before pasting the next prompt back to ChatGPT
+- Explicitly waits for the dialog to close before pasting the next prompt back to the LLM
 - Reduces stuck cycles where text is pasted into the wrong window during QC PNG uploads
 
 ### Live self-improving RAG
@@ -53,7 +53,7 @@ The agent gets better at the specific Revit project, code patterns and bridge en
   Main unattended browser to Revit bridge runner with local RAG hook.
 
 - `tools/calibration_ui.py`  
-  Coordinate calibration UI for ChatGPT, browser, file picker and Revit Python Shell control points.
+  Coordinate calibration UI for the LLM, browser, file picker and Revit Python Shell control points.
 
 - `config/bridge_config.example.json`  
   Example bridge coordinate and timing configuration.
